@@ -2,7 +2,7 @@
 
 I used cheat engine to speed up the application to some really large number (I tried 180,000 in fear that my pc explodes), and simply waited till the flag showed up
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image.png)
 
 FLAG: `grey{d1d_y0u_r34lly_w4it_f1fty_h0ur5???:thinking:}`
 
@@ -20,7 +20,7 @@ Upon opening the credits screen, there are some lines of morse code among the cr
 
 Which I put into the text box in the achievement screen (in small characters) to obtain the flag
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-1.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image-1.png)
 
 FLAG: `grey{th3_c4t_15_0u7_0f_th3_b4g_la138df}`
 
@@ -34,13 +34,13 @@ FLAG: `grey{w3lc0m3_to_gctf2024_enjoy_your_stay!}`
 
 osint challenge. Viewed latest video on @nus.greyhats and tried all the flags at the end, but didn't work, but saw this.
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-3.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image-3.png)
 
 Which, when decoded from hex, gives '18 seconds'
 
 Hence, I moved to 19 seconds of the video, and found the flag.
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-2.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image-2.png)
 
 FLAG: `grey{y0uR_eYeS_aRe_5hArP}`
 
@@ -62,23 +62,23 @@ Which was convenient, as the image provided is a grid, and traversing the grid w
 
 Hence, I searched up some helldivers wiki to find the directions.
 
-EAGLE BOMB:![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-4.png)
+EAGLE BOMB:![alt text](https://ongzhili.github.io/blog/assets/images/image-4.png)
 
-GL-21 ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-5.png)
+GL-21 ![alt text](https://ongzhili.github.io/blog/assets/images/image-5.png)
 
-MD-I4 ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-6.png)
+MD-I4 ![alt text](https://ongzhili.github.io/blog/assets/images/image-6.png)
 
-Orbital Gas Strike: ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-7.png)
+Orbital Gas Strike: ![alt text](https://ongzhili.github.io/blog/assets/images/image-7.png)
 
-Orbital Airburst Strike: ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-8.png)
+Orbital Airburst Strike: ![alt text](https://ongzhili.github.io/blog/assets/images/image-8.png)
 
-Eagle Rearm: ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-9.png)
+Eagle Rearm: ![alt text](https://ongzhili.github.io/blog/assets/images/image-9.png)
 
-Eagle 110mm: ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-10.png)
+Eagle 110mm: ![alt text](https://ongzhili.github.io/blog/assets/images/image-10.png)
 
 Starting from home, we get:
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-11.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image-11.png)
 
 OR:
 
@@ -93,6 +93,6 @@ to obtain the cookie info, which revealed itself to just be `{'is_admin': False}
 
 Hence, with the secret key found in `main.py`, we simply sign it with `{'is_admin': True}`, and edited the cookie on the browser to obtain access to the `/admin` page.
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/image-12.png)
+![alt text](https://ongzhili.github.io/blog/assets/images/image-12.png)
 
 Part2: Was not able to solve.
